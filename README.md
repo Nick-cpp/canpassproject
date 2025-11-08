@@ -23,4 +23,4 @@ $ cd canpassproject/
 
 $ g++ -std=c++17 -o canpass canpass.cpp
 
-$ sudo install -Dm755 canpass "$pkgdir/usr/bin/canpass"
+$ sudo install -Dm755 canpass /usr/bin/canpass
