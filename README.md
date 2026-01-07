@@ -4,23 +4,24 @@ Installation guide
 
 step 1: installing needed packages
 
-
+```
 $ sudo apt install gcc git  --  debian/debian-based
 
 $ sudo pacman -S gcc git  --  arch/arch-based
-
+```
 
 step 2: download the project repository
 
-
+```
 $ git clone https://github.com/Nick-cpp/canpassproject
-
+```
 
 step 3: compilaton and instalation
 
-
+```
 $ cd canpassproject/
 
 $ g++ -std=c++17 -o canpass canpass.cpp
 
 $ sudo install -Dm755 canpass /usr/bin/canpass
+```
